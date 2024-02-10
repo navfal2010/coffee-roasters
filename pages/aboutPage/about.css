@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 22px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3D7B7;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.fsection {
+    padding-top: 113px;
+    width: 100%;
+    height: 650px;
+    background-color: #F3D7B7;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.box_for_about_us {
+    margin-left: 50px;
+}
+
+.about_us {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.coffee_began {
+    margin-top: 75px;
+    width: 372px;
+    height: 85.37px;
+    top: 334px;
+    left: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.coffeemachine {
+    background-image: url('../../assets/img/aboutusfphoto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 660px;
+    height: 390px;
+    position: absolute;
+    right: 50px;
+    position: relative;
+}
+
+.logoo_in_ab {
+    position: absolute;
+    top: -90px;
+    left: -90px;
+}
+
+.ssection {
+    width: 100%;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 318px;
+}
+
+.our_commitment {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.were_built {
+    margin-top: 64px;
+    width: 646.39px;
+    height: 207.49px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.tsection {
+    width: 100%;
+    height: 510px;
+    background: #C99B67;
+    position: relative;
+}
+
+.box_for_uncompromising {
+    padding-top: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-left: 50px;
+}
+
+.uncompromising {
+    width: 397px;
+    height: 118px;
+    top: 1562px;
+    left: 50px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.although_we {
+    width: 639px;
+    height: 150px;
+    top: 1708px;
+    left: 59px;
+    opacity: 0.8px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.last_img{
+position: absolute;
+right: 54px;
+top: -160px;
+}
+
+footer {
+    width: 100%;
+    height: 160px;
+    padding: 22px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3D7B7;
+}
+
+.box_for_i {
+    display: flex;
+    gap: 30px;
+
+}
+
+i {
+    font-size: 30px;
+}
+
